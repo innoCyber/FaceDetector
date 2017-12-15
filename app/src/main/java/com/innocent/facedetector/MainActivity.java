@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Paint facePaint = new Paint();
         facePaint.setStrokeWidth(10);
-        facePaint.setColor(Color.WHITE);
+        facePaint.setColor(Color.RED);
         facePaint.setStyle(Paint.Style.STROKE);
 
         final Bitmap tempBitmap = Bitmap.createBitmap(myBitmap.getWidth(),myBitmap.getHeight(), Bitmap.Config.RGB_565);
